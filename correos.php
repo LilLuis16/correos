@@ -1,11 +1,12 @@
 <?php 
 
-$destino= 'Joseluisgk38@gmail.com';
+$destino='Joseluisgk38@gmail.com';
 
-$nombre =´$_POST['nombre'];
-$asunto =´$_POST['asunto'];
-$mensje =´$_POST['mensaje'];
-$email =´$_POST['email'];
+$nombre=$_POST['nombre'];
+$email=$_POST['email'];
+$asunto=$_POST['asunto'];
+$mensje=$_POST['mensaje'];
+
 
 $header = "enviado desde la pagina de Deporte";
 $mensajecompleto = $mensje . "\nAtentamente: " . $nombre;
