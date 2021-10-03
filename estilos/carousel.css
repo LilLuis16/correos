@@ -1,0 +1,73 @@
+
+      #carouselExampleFade,
+      .carousel-inner,
+      .carousel-item,
+      .carousel-item.active {
+        height: 100%;
+        width: 100%;
+      }
+
+    .carousel-item:nth-child(1) {
+        background-image: url(https://images.pexels.com/photos/1308713/pexels-photo-1308713.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(2) {
+        background-image: url(https://images.pexels.com/photos/264258/pexels-photo-264258.jpeg?cs=srgb&dl=pexels-pixabay-264258.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+      }
+
+      .carousel-item:nth-child(3) {
+        background-image: url(https://images.pexels.com/photos/1171084/pexels-photo-1171084.jpeg?cs=srgb&dl=pexels-mike-1171084.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;}
+
+        .carousel-item:nth-child(4) {
+        background-image: url(https://images.pexels.com/photos/6203509/pexels-photo-6203509.jpeg?cs=srgb&dl=pexels-pavel-danilyuk-6203509.jpg&fm=jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;}
+
+
+/* barra de progreso */
+
+  .progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #04AA6D;
+  width: 0%;
+}
+
+/* estilos del form de ayuda */
+
+div.modal-body form{
+  margin: 10px auto;
+}
+
+div.modal-body input{
+  margin: 5px;
+  width: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+div.modal-body form textarea{
+  margin: 5px;
+  width: 300px;
+  padding: 8px;
+  min-height: 50px;
+  max-height: 200px;
+}
+
+
+/* formulario */
